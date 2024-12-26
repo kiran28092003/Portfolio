@@ -1,0 +1,234 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff; /* White text for better contrast on dark background */
+    height: 100%;
+    background: linear-gradient(45deg, #000000, #444444); /* Starting gradient with black and gray */
+    animation: gradientShift 10s ease-in-out infinite; /* Smooth gradient animation */
+    background-size: 400% 400%;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  @keyframes gradientShift {
+    0% {
+      background: linear-gradient(45deg, #000000, #444444); /* Black to dark gray */
+    }
+    25% {
+      background: linear-gradient(45deg, #FFFFFF, #444444); /* White to gray */
+    }
+    50% {
+      background: linear-gradient(45deg, #444444, #000000); /* Gray to black */
+    }
+    75% {
+      background: linear-gradient(45deg, #FFFFFF, #444444); /* White to gray */
+    }
+    100% {
+      background: linear-gradient(45deg, #000000, #444444); /* Black to dark gray */
+    }
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #000000; /* Starting black background */
+    color: #FFD700; /* Golden color for header text */
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid #444444; /* Dark border */
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+  
+  /* Navigation Links */
+  header nav a {
+    color: #FFD700; /* Golden color for navigation links */
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+  }
+  
+  header nav a:hover {
+    color: #FF5733; /* Red hover effect for links */
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: #ffffffc4; /* White background for each section */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* About Section */
+  section.about {
+    background-color: #444444; /* Gray background for About section */
+    color: #FFD700; /* Golden color for text */
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  section.about h2 {
+    color: #FFD700; /* Golden color for About header */
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  section.about p {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  
+  /* Skills Section */
+  section.skills {
+    background-color: #000000; /* Black background for Skills section */
+    color: #FF5733; /* Red color for Skills text */
+  }
+  
+  section.skills h2 {
+    color: #FF5733; /* Red text for Skills header */
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  section.skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  section.skills li {
+    font-size: 1.1rem;
+    color: #ffffff;
+  }
+  
+  /* Projects Section */
+section.projects {
+    background-color: #ffffff; /* White background for Projects section */
+    color: #000000; /* Black text for Projects to ensure readability */
+  }
+  
+  section.projects h2 {
+    color: #000000; /* Black text for Projects header */
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  section.projects p {
+    color: #333333; /* Dark gray text for paragraph to maintain contrast */
+  }
+  
+  
+  /* Social Links */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    margin: 0 15px;
+    font-size: 1.3rem;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    color: #FF5733; /* Hover effect on social links */
+  }
+  /* Contact Me Section */
+section.contact {
+    background-color: #000000; /* Black background for Contact section */
+    color: #FFD700; /* Golden text for headings */
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section.contact h2 {
+    color: #FFD700; /* Golden color for heading */
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  section.contact p {
+    font-size: 1.1rem;
+    color: #FFFFFF; /* White text for description */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 2px solid #FFD700; /* Golden border for inputs */
+    background-color: #222222; /* Dark background for input fields */
+    color: #fff; /* White text inside the input fields */
+    font-size: 1rem;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #FF5733; /* Red border on focus for input fields */
+    outline: none;
+  }
+  
+  button {
+    padding: 12px 25px;
+    background-color: #FFD700; /* Golden background for submit button */
+    color: #000000; /* Black text on button */
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #FF5733; /* Red hover effect on button */
+  }
+  
+  
+  /* Footer Section */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  footer .social-footer a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  footer .social-footer a:hover {
+    color: #FF5733;
+  }
+  
