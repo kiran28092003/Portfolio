@@ -1,4 +1,3 @@
-@@ -1,43 +1,38 @@
 # 👩‍💻 My Portfolio
 <h1 align="center">Hi 👋, I'm Kiran Ambadas Tajanpure</h1>
 <h3 align="center">A Full Stack Java development for now</h3>
