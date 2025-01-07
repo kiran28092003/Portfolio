@@ -3,10 +3,6 @@
 <h3 align="center">A Full Stack Java development for now</h3>
 
 Welcome to my GitHub portfolio! Here, you can explore my projects, skills, and interests.
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=kiran28092003&label=Profile%20views&color=0e75b6&style=flat" alt="kiran28092003" /> </p>
-
----
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kiran28092003" alt="kiran28092003" /></a> </p>
 
 ## 🌟 About Me
 
@@ -43,4 +39,3 @@ Welcome to my GitHub portfolio! Here, you can explore my projects, skills, and i
 - **GitHub**: [github.com/username](#)
 ---
 Thank you for visiting my portfolio! 🌟  
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kiran28092003&" alt="kiran28092003" /></p
