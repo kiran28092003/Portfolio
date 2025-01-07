@@ -1,6 +1,4 @@
 # 👩‍💻 My Portfolio
-<h1 align="center">Hi 👋, I'm Kiran Ambadas Tajanpure</h1>
-<h3 align="center">A Full Stack Java development for now</h3>
 
 Welcome to my GitHub portfolio! Here, you can explore my projects, skills, and interests.
 
